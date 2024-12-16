@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+}
+.header{
+
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+}
+.header ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: white;
+}
+.header h2{
+    color: white;
+}
+.header button{
+    background-color: rgb(255, 255, 0);
+    padding: 13px;
+    border: none;
+    border-radius: 12px;
+}
+li:hover{
+    color: red;
+}
+
+button:hover{
+    background-color: rgb(70, 188, 95);
+     
+}
+
+
+
+
+ .left{
+    height: 300px;
+    background-color:#f8d76d;
+    padding: 70px 80px;
+     
+ }
+
+
+
+ .left button{
+    margin-top: 22px;
+    padding: 15px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 16px;
+ }
+
+ 
+
+.main{
+
+    height: 100px;
+    padding: 1px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+    
+}
+
+    .image img {
+
+        height: 220px;
+        width: 160px;
+        padding:20px 100px ;
+
+    }
+    
+.child{
+    margin: 10px 90px ;
+}
+
+.footer {
+    margin-left: 60px;
+    display: flex;
+    gap:  20px;
+    padding: 0px 30px;
+    
+} 
+.footer img {
+    height: 200px;
+    width: 160px;
+    border-radius: 7px;
+     
+     
+}
+
+.main-right{
+    margin-right: 170px;
+}
+
+
+.m{
+    height: 350px;
+    background-color: white;
+}
+ 
+.Circle{
+    height: 250px;
+    width: 250px;
+    background-color: green;
+    float: right;
+    margin-right: 250px;
+    margin-top: -150px;
+    border-radius: 200px;
+ 
+     
+}
